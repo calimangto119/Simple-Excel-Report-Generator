@@ -32,6 +32,8 @@ To start Simple_Excel_Report_Generator, run:
 python main.py
 ```
 
+The application can be run as a script or compiled into a standalone executable using **PyInstaller** or similar tools.
+
 ## Usage
 1. Open the application and load a dataset (Excel or CSV).
 2. Apply filters dynamically to refine the data.
