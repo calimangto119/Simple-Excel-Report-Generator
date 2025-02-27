@@ -1,24 +1,34 @@
-Simple_Excel_Report_Generator
-Tags: #PyQt5, #Excel, #CSV, #ReportGenerator, #DataVisualization, #Charts, #qdarkstyle, #Matplotlib, #Python, #StandaloneApp
+# Simple_Excel_Report_Generator
 
-Overview
-Simple_Excel_Report_Generator is a Python-based application built with PyQt5 that allows users to load, filter, visualize, and generate reports from Excel and CSV data. The application provides an intuitive GUI with modern styling and includes the ability to create charts and export reports in various formats.
+**Tags:** `#PyQt5`, `#Excel`, `#CSV`, `#ReportGenerator`, `#DataVisualization`, `#Charts`, `#qdarkstyle`, `#Matplotlib`, `#Python`, `#StandaloneApp`
 
-Features
-Load data from Excel or CSV files
-Apply multiple filters dynamically
-Generate charts including bar, line, scatter, and pie charts
-Export reports as PDFs and Excel files
-Dark mode theme using qdarkstyle
-Interactive Matplotlib-based charts
-Installation
-Prerequisites
-Ensure you have Python 3.7+ installed on your system. Install required dependencies using:
+## Overview
 
-sh
-Copy
+Simple_Excel_Report_Generator is a Python-based application built with PyQt5 that allows users to load, filter, visualize, and generate reports from Excel and CSV data. The application features an intuitive GUI with modern styling and the ability to create charts and export reports in various formats.
+
+## Features
+
+- **Data Loading:** Import data from Excel or CSV files.
+- **Dynamic Filtering:** Apply multiple filters to refine your dataset.
+- **Chart Generation:** Create various charts including bar, line, scatter, and pie charts.
+- **Report Export:** Export reports as PDFs and Excel files.
+- **Dark Mode:** Enjoy a modern dark theme powered by qdarkstyle.
+- **Interactive Visualizations:** Experience interactive charts built with Matplotlib.
+
+## Installation
+
+### Prerequisites
+
+Ensure you have Python 3.7+ installed on your system.
+
+### Installing Dependencies
+
+Install the required dependencies by running:
+
+```sh
 pip install -r requirements.txt
 Required Packages:
+
 PyQt5
 pandas
 matplotlib
@@ -34,12 +44,12 @@ python main.py
 The application can be run as a script or compiled into a standalone executable using PyInstaller or similar tools.
 
 Usage
-Open the application and load a dataset (Excel or CSV).
-Apply filters dynamically to refine the data.
-Switch to the Chart tab to visualize the data.
-Export the generated reports as needed.
+Load Data: Open the application and load your dataset (Excel or CSV).
+Filter Data: Apply filters dynamically to refine the data.
+Visualize: Switch to the Chart tab to create interactive visualizations.
+Export: Export the generated reports as needed.
 License
-This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License.
+This project is licensed under the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International License. You are free to share this work as long as you provide appropriate credit, do not use it for commercial purposes without explicit permission, and do not modify it.
 
 Contribution
 Contributions are welcome! Feel free to fork this repository and submit pull requests.
